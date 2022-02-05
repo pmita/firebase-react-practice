@@ -1,9 +1,11 @@
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   return (
-    <div className="App">
-      Welcome to App.js component
-    </div>
+    <Router>
+      <div className="App">
+        Welcome to App.js component
+      </div>
+    </Router>
   );
 }
 
