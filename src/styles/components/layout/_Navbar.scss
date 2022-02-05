@@ -1,0 +1,20 @@
+nav{
+    width: 100%;
+    min-height: 10vh;
+    background: grey;
+    @include flex(row, space-between, center);
+    padding: 0 5rem;
+}
+
+.brand-logo{
+    color: $white;
+}
+
+.right{
+    flex: 1;
+    @include flex(row, space-evenly, center);
+    li a{
+        color: $white;
+    }
+}
+
