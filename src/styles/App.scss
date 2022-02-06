@@ -1,0 +1,19 @@
+@import './base/variables';
+@import './abstract/global';
+@import './mixins/mixins';
+
+.App{
+    background: $white;
+}
+
+// Components
+@import './components/layout/Navbar';
+@import './components/dashboard/Dashboard';
+@import './components/dashboard/ProjectSummary';
+@import './components/dashboard/Notifications';
+
+@import './components/project/CreateProject';
+@import './components/project/ProjectDetails';
+
+@import './components/auth/SignIn';
+@import './components/auth/SignUp';
